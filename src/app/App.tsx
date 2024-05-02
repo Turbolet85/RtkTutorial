@@ -1,5 +1,13 @@
+import CartContainer from '../components/CartContainer';
+import Navbar from '../components/Navbar';
+
 const App = () => {
-  return <h1 className={'text-3xl font-bold underline'}>BOILERPLATE</h1>;
+  return (
+    <main>
+      <Navbar />
+      <CartContainer />
+    </main>
+  );
 };
 
 export default App;
